@@ -1,8 +1,11 @@
 int ledPin = 2;
 int buttonPin = 25;
+
 int brightPotPin = A0;
 int brightPotValue = 0;
 int brightnessLed = 0;
+
+int commit = 1;
 
 bool buttonState = LOW;
 bool lastButtonState = LOW;
