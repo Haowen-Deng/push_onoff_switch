@@ -6,6 +6,7 @@ int brightPotValue = 0;
 int brightnessLed = 0;
 
 int commit = 1;
+int commitAgain = 2;
 
 bool buttonState = LOW;
 bool lastButtonState = LOW;
